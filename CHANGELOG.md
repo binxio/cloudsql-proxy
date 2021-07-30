@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.24.0](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/compare/v1.23.1...v1.24.0) (2021-07-30)
+
+
+### Features
+
+* Add option to delay key generate until first connect ([#841](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/841)) ([4999ffd](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/4999ffd0c3406e91874648630f9805b2d5f0ac50))
+* stop building darwin 386 binaries ([#846](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/846)) ([77d7c40](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/77d7c40ff79cf99a10d2dbae39b737625a08582f)), closes [#780](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/780)
+
+
+### Bug Fixes
+
+* invalidate cached config on handshake error ([#817](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/817)) ([5d98f5c](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/5d98f5c40e0b58da479bf6897712d53e6846f613))
+* strip padding from access tokens if present ([#851](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/issues/851)) ([1f195e5](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/commit/1f195e500c1a8989dcf4d73c429620ddd5b20891))
+
 ### [1.23.1](https://www.github.com/GoogleCloudPlatform/cloudsql-proxy/compare/v1.23.0...v1.23.1) (2021-07-12)
 
 
